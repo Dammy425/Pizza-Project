@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>HotSlice Pizza Shopping Website</title>
+        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="/CSS/dropdown.css">
+        <link rel="stylesheet" href="/CSS/notification.css">
+        <link rel="shortcut icon" href="/IMG/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <div class="top-notification">
+            <p>Successfully Added To Cart</p>
+
+            <a href="/index.html">
+                <span>x</span>
+            </a>
+        </div>
+        
+        <nav>
+            <img src="/IMG/kholse edit-Photoroom.png" alt="HotSlice Logo">
+
+            <ul>
+                <li>
+                    <a href="/index.html" style="position: relative; top: 3px;">
+                        Home
+                    </a>
+                </li>
+                
+                <li style="width: 66px;" class="dropdownlink">
+                    <a href="/others.html" style="display: flex; align-items: center; position: relative; top: -3px;">
+                        <span>Other</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 10px; position: relative; top: -4px; left: 6px; fill: white;"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
+                    </a>
+                    
+                    <div class="dropdown_container">
+                        <div class="dropdown">    
+                            <a href="#snacks">Snacks</a>
+    
+                            <a href="#coffee">Coffee</a>
+    
+                            <a href="#drinks">Drinks</a>
+    
+                            <a href="#dessert">Dessert</a>
+    
+                            <a href="#sauce">Sauce</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="/about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/contact.html">
+                        Contact
+                    </a>
+                </li>
+
+                <span style="margin-top: -13px; cursor: pointer;">
+                    <div style="color: black; background-color: white; font-size: 10px; height: 15px; text-align: justify; border-radius: 10px; position: relative; top: 9px; left: 10px; z-index: 9;">10+</div>
+                    <span style="width: 18px; fill: white; position: relative; top: 2px; z-index: -9;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg></span>
+                </span>
+            </ul>
+        </nav>
+
+        <div class="hero_section">
+            <div class="slider_tabs">
+                <input type="radio" name="slider" id="slider1" checked>
+                <input type="radio" name="slider" id="slider2">
+                <input type="radio" name="slider" id="slider3">
+                <input type="radio" name="slider" id="slider4">
+
+                <div class="labels">
+                    <label for="slider1"></label>
+                    <label for="slider2"></label>
+                    <label for="slider3"></label>
+                    <label for="slider4"></label>
+                </div>
+
+                <div class="hero_content">
+                    <div class="hero_box slider1_bg">
+                        <div class="content">
+                            <div>
+                                
+                                <div class="content_heading">
+                                    <h1>ENJOY OUR COMBO WITH 30% DISCOUNT</h1>
+                                    <h2>Combo For One</h2>
+                                </div>
+
+                                <p>The best meal combo for onself consisting of : One Medium Pizza, 4 Pieces of Chicken Strips and a Coca-Cola drink. Ideal combination to indulge one person.</p>
+                                
+                                <div class="pricetag">
+                                    <h3>₦8,400</h3>
+                                    <del><h3>₦12,000</p></h3>
+                                </div>
+
+                                <a href="#">
+                                    <button>
+                                        <span>Place Order</span>
+                                        <span class="arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>    
+                                        </span>
+                                    </button>
+                                </a>
+
+                            </div>
+                            <img src="/IMG/combo1.avif" alt="">
+                        </div>
+                    </div>
+
+                    <div class="hero_box slider2_bg">
+                        <div class="content">
+                            <div>
+                                
+                                <div class="content_heading">
+                                    <h1>ENJOY OUR COMBO WITH 30% DISCOUNT</h1>
+                                    <h2>Combo For Two</h2>
+                                </div>
+
+                                <p>A very nice combo enough to fill the stomach of two. The combo consist of : One large pizza, 4 pieces of Chicken strips and 2 Coca-Cola drinks. Ideal combination to satisfy two people.</p>
+                                
+                                <div class="pricetag">
+                                    <h3>₦10290</h3>
+                                    <del><h3>₦14,700</p></h3>
+                                </div>
+
+                                <a href="#">
+                                    <button class="button-special">
+                                        <span>Place Order</span>
+                                        <span class="arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>    
+                                        </span>
+                                    </button>
+                                </a>
+
+                            </div>
+                            <img src="/IMG/combo2.avif" alt="">
+                        </div>
+                    </div>
+
+                    <div class="hero_box slider3_bg">
+                        <div class="content">
+                            <div>
+                                
+                                <div class="content_heading">
+                                    <h1>ENJOY OUR COMBO WITH 30% DISCOUNT</h1>
+                                    <h2>Combo For Two With Extra Chicken</h2>
+                                </div>
+
+                                <p>A very nice combo enough to fill the stomach of two and save some for later. The combo consist of : One large pizza, 4 pieces of Chicken strips and 2 Coca-Cola drinks. Ideal combination to satisfy two people.</p>
+                                
+                                <div class="pricetag">
+                                    <h3>₦11,340</h3>
+                                    <del><h3>₦16,200</p></h3>
+                                </div>
+
+                                <a href="#">
+                                    <button>
+                                        <span>Place Order</span>
+                                        <span class="arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>    
+                                        </span>
+                                    </button>
+                                </a>
+
+                            </div>
+                            <img src="/IMG/combo3.avif" alt="">
+                        </div>
+                    </div>
+
+                    <div class="hero_box slider4_bg">
+                        <div class="content">
+                            <div>
+                                
+                                <div class="content_heading">
+                                    <h1>ENJOY OUR COMBO WITH 30% DISCOUNT</h1>
+                                    <h2>Combo For Four</h2>
+                                </div>
+
+                                <p>THe best combo meal for four people which consist of : Two large pizzas, 8 pieces of Chicken strips and 4 Coca-Cola drinks. What an amazing combination for four people.</p>
+                                
+                                <div class="pricetag">
+                                    <h3>₦20,020</h3>
+                                    <del><h3>₦28,600</p></h3>
+                                </div>
+
+                                <a href="#">
+                                    <button class="button-special">
+                                        <span>Place Order</span>
+                                        <span class="arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>    
+                                        </span>
+                                    </button>
+                                </a>
+
+                            </div>
+                            <img src="/IMG/combo4.avif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pizza_container">
+
+            <h1>PIZZA</h1>
+
+            <div class="pizza_display">
+                
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Beef Suya.avif" alt="Beef Suya">
+
+                    <div class="pizza_order_text">
+                        <h1>Beef Suya</h1>
+
+                        <p>Spicy meatballs, bell pepper, red onions, mozzarella, suya mayonnaise sauce, tomato sauce, suya spices</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Cheeseburger Pizza.avif" alt="Cheeseburger Pizza">
+
+                    <div class="pizza_order_text">
+                        <h1>Cheeseburger</h1>
+
+                        <p>Beef, tomatoes, onions, cheddar, mozzarella, mayonaise & ketchup, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Cheesy Chicken.avif" alt="Cheesy Chicken">
+
+                    <div class="pizza_order_text">
+                        <h1>Cheesy Chicken</h1>
+
+                        <p>Chicken, tomatoes, cheddar, mozzarella, cheese sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Chicken BBQ.avif" alt="Chicken BBQ">
+
+                    <div class="pizza_order_text">
+                        <h1>Chicken BBQ</h1>
+
+                        <p>Chicken, red onions, corn, mozzarella, BBQ sauce, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Dodo BBQ.avif" alt="Dodo BBQ">
+
+                    <div class="pizza_order_text">
+                        <h1>Dodo BBQ</h1>
+
+                        <p>Chicken, Green Pepper, Red Pepper, Sausage, Corn, Plantain, Tomato, Sauce, Mozzarella, BBQ Sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Dodo Supreme.avif" alt="Dodo Supreme">
+
+                    <div class="pizza_order_text">
+                        <h1>Dodo Supreme</h1>
+
+                        <p>Tomato sauce, spicy chicken, spicy meatballs, mozzarella, onion, green pepper, tomato, fried plantain, sweet chili sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Hawaiian.avif" alt="Hawaiian">
+
+                    <div class="pizza_order_text">
+                        <h1>Hawaiian</h1>
+
+                        <p>Chicken, pineapple, mozzarella, sweet chili sauce, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Margherita.avif" alt="Margherita">
+
+                    <div class="pizza_order_text">
+                        <h1>Margherita</h1>
+                        
+                        <p>Mozzarella, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Meaty BBQ.avif" alt="Meaty BBQ">
+
+                    <div class="pizza_order_text">
+                        <h1>Meaty BBQ</h1>
+
+                        <p>Beef, pepperoni, sausages, mozzarella, BBQ sauce, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Meaty Overload.avif" alt="Meaty Overload">
+
+                    <div class="pizza_order_text">
+                        <h1>Meaty Overload</h1>
+
+                        <p>Pepperoni, spicy meatballs, chicken, sausages, mozzarella, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Mexican Beef pizza.avif" alt="Mexican Beef pizza">
+
+                    <div class="pizza_order_text">
+                        <h1>Mexican Beef pizza</h1>
+
+                        <p>Beef crumbles, tomato sauce, onion, tomato, mozzarella, cheddar, mexican sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Naija Beef.avif" alt="Naija Beef">
+
+                    <div class="pizza_order_text">
+                        <h1>Naija Beef</h1>
+
+                        <p>Beef crumbles, pizza sauce, red onions, green pepper, red pepper, mozzarella cheese and jollof mayo</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Naija Chicken.avif" alt="Naija Chicken">
+
+                    <div class="pizza_order_text">
+                        <h1>Naija Chicken</h1>
+
+                        <p>Chicken, red onions, green pepper, red pepper, jollof mayo and mozzarella cheese</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Pepperoni.avif" alt="Pepperoni">
+
+                    <div class="pizza_order_text">
+                        <h1>Pepperoni</h1>
+
+                        <p>Pepperoni, mozzarella, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Super Meaty.avif" alt="Super Meaty">
+
+                    <div class="pizza_order_text">
+                        <h1>Super Meaty</h1>
+
+                        <p>Chicken, pepperoni, sausages, mozzarella, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pizza_order">
+                    <img src="/IMG/PIZZA/Veggi Overload.avif" alt="Veggi Overload">
+
+                    <div class="pizza_order_text">
+                        <h1>Veggi Overload</h1>
+
+                        <p>Mushrooms, bell peppers, corn, olives, red onions, tomatoes, mozzarella, tomato sauce</p>
+                        
+                        <span>
+                            <h3>₦ 18,000</h3>
+
+                            <a href="/payment.html">
+                                <button>Order</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+
+              <div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <p style="margin: 5px 0;">Phone: +1 234 567 890</p>
+                    <p style="margin: 5px 0;">Email: info@hotslicepizza.com</p>
+                </div>
+              
+                <div>
+                    <h4>Follow Us</h4>
+                    <div style="display: flex; gap: 10px;">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 14px; fill: white;"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+                        </span>
+    
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 20px; fill: white;"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </span>
+    
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 22px; fill: white;"><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg>
+                        </span>
+    
+                    </div>
+                </div>
+              </div>
+          
+              <div style="padding-top: 25px; text-align: center; width: 264.5px; margin: auto;">
+                <p style="margin: 0; font-size: 14px; color: #aaa;">© 2024 HotSlice Pizza. All Rights Reserved.</p>
+              </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 29px;
+    width: 136px;
+    /* border: 2px solid black; */
+    background-color: rgba(238, 82, 82, 0.671);
+    border-radius: 3px;
+}
+
+.dropdown a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.dropdown a:hover{
+    background-color: rgb(238, 82, 82);
+}
+
+.dropdown_container{
+    display: none;
+}
+
+.dropdownlink:hover .dropdown_container{
+    display: block;
+}

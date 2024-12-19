@@ -1,0 +1,77 @@
+*{
+    cursor: not-allowed;
+}
+
+.overlay{
+    height: 180vh;
+    background-color: rgba(0, 0, 0, 0.342);
+    margin-top: -180vh;
+}
+
+input, select{
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+.svg1{
+    cursor: pointer;
+}
+
+.svg{
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.button{
+    transition: none;
+    color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.button:hover{
+    background-color: rgb(255, 87, 51)!important;
+}
+
+.button2{
+    transition: none;
+    color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.button2:hover{
+    background-color: rgb(255, 87, 51)!important;
+}
+
+.decision{
+    padding-top: 20%;
+    margin: auto;
+    width: 200px;
+    height: 70px;
+}
+
+.decision-text{
+    background-color: white;
+    position: fixed;
+    padding: 10px;
+    cursor: initial;
+}
+
+.decision p{
+    text-align: center;
+    padding: 0 40px;
+    cursor: initial;
+}
+
+.button-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 10px;
+    cursor: initial;
+}
+
+.button-container button{
+    background-color: rgb(255, 87, 51);
+    color: white;
+    border: none;
+    padding: 5px 0px;
+    border-radius: 2px;
+    width: 43px;
+    cursor: pointer;
+}

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HotSlice Pizza - Payment</title>
+        <link rel="stylesheet" href="/CSS/pay.css">
+        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="/CSS/dropdown.css">
+        <link rel="shortcut icon" href="/IMG/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+    
+        <div class="svg-div">
+            <a href="/notsaved4.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg1"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+            </a>
+        </div>
+
+        <div class="payment_container">
+
+            <h2>Checkout</h2>
+
+            <div class="payment_sec_container">
+
+                <div class="order_items">
+
+                    <div class="order_item_container">
+
+                        <div class="order_items_child">
+                            <label for="pizza">Pizza:</label>
+                            <select name="pizza" id="pizza">
+                                <option value="pizza"></option>
+                                <option value="pizza">Beef Suya</option>
+                                <option value="pizza">Cheeseburger</option>
+                                <option value="pizza">Cheesy Chicken</option>
+                                <option value="pizza">Chicken BBQ</option>
+                                <option value="pizza">Dodo BBQ</option>
+                                <option value="pizza">Dodo Supreme</option>
+                                <option value="pizza">Hawaiian</option>
+                                <option value="pizza">Margherita</option>
+                                <option value="pizza">Meaty BBQ</option>
+                                <option value="pizza">Meaty Overload</option>
+                                <option value="pizza">Mexican Beef</option>
+                                <option value="pizza">Naija Beef</option>
+                                <option value="pizza">Naija Chicken</option>
+                                <option value="pizza">Pepperoni</option>
+                                <option value="pizza">Super Meaty</option>
+                                <option value="pizza">Veggi Overload</option>
+                            </select>
+                        </div>
+
+                        <div class="order_items_child">
+                            <label for="snacks">Snacks:</label>
+                            <select name="snacks" id="snacks">
+                                <option value="snacks"></option>
+                                <option value="snacks">BBQ Chicken Pocket</option>
+                                <option value="snacks">Beef Suya Pocket</option>
+                                <option value="snacks">Mushroom Pocket</option>
+                                <option value="snacks">Beef Suya Dodster</option>
+                                <option value="snacks">Classic Dodster</option>
+                                <option value="snacks">Chicken BBQ Dodster</option>
+                                <option value="snacks">Shawarma Dodster</option>
+                                <option value="snacks">Beef Suya Pasta</option>
+                                <option value="snacks">Sausage Pasta</option>
+                                <option value="snacks">Bolognese Pasta</option>
+                                <option value="snacks">Chicken Mushroom Pasta</option>
+                                <option value="snacks">Buffalo Chicken Wings</option>
+                                <option value="snacks">BBQ Chicken Wings</option>
+                                <option value="snacks">Chicken Strips</option>
+                                <option value="snacks">Chicken Suya Strips</option>
+                                <option value="snacks">Cheese Rolls</option>
+                                <option value="snacks">Sausage Rolls</option>
+                                <option value="snacks">Potato Wedges</option>
+                                <option value="snacks">Plantain Cubes</option>
+                                <option value="snacks">Pizzetta Cheezetta</option>
+                                <option value="snacks">Pizzetta Chili</option>
+                                <option value="snacks">Pizzetta Shawarma</option>
+                            </select>
+                        </div> 
+
+                        <div class="order_items_child">
+                            <label for="coffee">Coffee:</label>
+                            <select name="coffee" id="coffee">
+                                <option value="coffee"></option>
+                                <option value="coffee">Americano</option>
+                                <option value="coffee">Cafe Latte</option>
+                                <option value="coffee">Cappuccino</option>
+                            </select>
+                        </div>
+
+                        <div class="order_items_child">
+                            <label for="drinks">Drinks:</label>
+                            <select name="drinks" id="drinks">
+                                <option value="drinks"></option>
+                                <option value="drinks">Eva still water</option>
+                                <option value="drinks">Sprite</option>
+                                <option value="drinks">Coca-Cola</option>
+                                <option value="drinks">Fanta</option>
+                                <option value="drinks">Juice 5 Alive Orange</option>
+                                <option value="drinks">Beer Heineken</option>
+                                <option value="drinks">Schweppes Chapman</option>
+                                <option value="drinks">Schweppes Pineapple</option>
+                                <option value="drinks">Schweppes Virigin Mojito</option>
+                            </select>
+                        </div>                        
+
+                        <div class="order_items_child">
+                            <label for="dessert">Dessert:</label>
+                            <select name="dessert" id="dessert">
+                                <option value="dessert"></option>
+                                <option value="dessert">Ice cream Chocolate</option>
+                                <option value="dessert">Ice cream Coconut</option>
+                                <option value="dessert">Ice Cream Stracciatella</option>
+                                <option value="dessert">Ice cream Strawberry</option>
+                                <option value="dessert">Ice cream Vanilla</option>
+                            </select>
+                        </div>
+
+                        <h3 style="margin: 0; padding: 0;"> <span style="font-weight: 300;">Total:</span> ₦20,000</h3>
+
+                    </div>
+
+                    <div class="order_item_container">
+
+                        <div class="order_items_child">
+                            <label for="pizza">Pizza:</label>
+                            <select name="pizza" id="pizza">
+                                <option value="pizza"></option>
+                                <option value="pizza">Beef Suya</option>
+                                <option value="pizza">Cheeseburger</option>
+                                <option value="pizza">Cheesy Chicken</option>
+                                <option value="pizza">Chicken BBQ</option>
+                                <option value="pizza">Dodo BBQ</option>
+                                <option value="pizza">Dodo Supreme</option>
+                                <option value="pizza">Hawaiian</option>
+                                <option value="pizza">Margherita</option>
+                                <option value="pizza">Meaty BBQ</option>
+                                <option value="pizza">Meaty Overload</option>
+                                <option value="pizza">Mexican Beef</option>
+                                <option value="pizza">Naija Beef</option>
+                                <option value="pizza">Naija Chicken</option>
+                                <option value="pizza">Pepperoni</option>
+                                <option value="pizza">Super Meaty</option>
+                                <option value="pizza">Veggi Overload</option>
+                            </select>
+                        </div>
+
+                        <div class="order_items_child">
+                            <label for="snacks">Snacks:</label>
+                            <select name="snacks" id="snacks">
+                                <option value="snacks"></option>
+                                <option value="snacks">BBQ Chicken Pocket</option>
+                                <option value="snacks">Beef Suya Pocket</option>
+                                <option value="snacks">Mushroom Pocket</option>
+                                <option value="snacks">Beef Suya Dodster</option>
+                                <option value="snacks">Classic Dodster</option>
+                                <option value="snacks">Chicken BBQ Dodster</option>
+                                <option value="snacks">Shawarma Dodster</option>
+                                <option value="snacks">Beef Suya Pasta</option>
+                                <option value="snacks">Sausage Pasta</option>
+                                <option value="snacks">Bolognese Pasta</option>
+                                <option value="snacks">Chicken Mushroom Pasta</option>
+                                <option value="snacks">Buffalo Chicken Wings</option>
+                                <option value="snacks">BBQ Chicken Wings</option>
+                                <option value="snacks">Chicken Strips</option>
+                                <option value="snacks">Chicken Suya Strips</option>
+                                <option value="snacks">Cheese Rolls</option>
+                                <option value="snacks">Sausage Rolls</option>
+                                <option value="snacks">Potato Wedges</option>
+                                <option value="snacks">Plantain Cubes</option>
+                                <option value="snacks">Pizzetta Cheezetta</option>
+                                <option value="snacks">Pizzetta Chili</option>
+                                <option value="snacks">Pizzetta Shawarma</option>
+                            </select>
+                        </div> 
+
+                        <div class="order_items_child">
+                            <label for="coffee">Coffee:</label>
+                            <select name="coffee" id="coffee">
+                                <option value="coffee"></option>
+                                <option value="coffee">Americano</option>
+                                <option value="coffee">Cafe Latte</option>
+                                <option value="coffee">Cappuccino</option>
+                            </select>
+                        </div>
+
+                        <div class="order_items_child">
+                            <label for="drinks">Drinks:</label>
+                            <select name="drinks" id="drinks">
+                                <option value="drinks"></option>
+                                <option value="drinks">Eva still water</option>
+                                <option value="drinks">Sprite</option>
+                                <option value="drinks">Coca-Cola</option>
+                                <option value="drinks">Fanta</option>
+                                <option value="drinks">Juice 5 Alive Orange</option>
+                                <option value="drinks">Beer Heineken</option>
+                                <option value="drinks">Schweppes Chapman</option>
+                                <option value="drinks">Schweppes Pineapple</option>
+                                <option value="drinks">Schweppes Virigin Mojito</option>
+                            </select>
+                        </div>                        
+
+                        <div class="order_items_child">
+                            <label for="dessert">Dessert:</label>
+                            <select name="dessert" id="dessert">
+                                <option value="dessert"></option>
+                                <option value="dessert">Ice cream Chocolate</option>
+                                <option value="dessert">Ice cream Coconut</option>
+                                <option value="dessert">Ice Cream Stracciatella</option>
+                                <option value="dessert">Ice cream Strawberry</option>
+                                <option value="dessert">Ice cream Vanilla</option>
+                            </select>
+                        </div>
+
+                        <h3 style="margin: 0; padding: 0;"> <span style="font-weight: 300;">Total:</span> ₦20,000</h3>
+
+                    </div>
+
+                    <div class="order_item_container">
+
+                        <div class="order_items_child">
+                            <label for="pizza">Pizza:</label>
+                            <select name="pizza" id="pizza">
+                                <option value="pizza"></option>
+                                <option value="pizza">Beef Suya</option>
+                                <option value="pizza">Cheeseburger</option>
+                                <option value="pizza">Cheesy Chicken</option>
+                                <option value="pizza">Chicken BBQ</option>
+                                <option value="pizza">Dodo BBQ</option>
+                                <option value="pizza">Dodo Supreme</option>
+                                <option value="pizza">Hawaiian</option>
+                                <option value="pizza">Margherita</option>
+                                <option value="pizza">Meaty BBQ</option>
+                                <option value="pizza">Meaty Overload</option>
+                                <option value="pizza">Mexican Beef</option>
+                                <option value="pizza">Naija Beef</option>
+                                <option value="pizza">Naija Chicken</option>
+                                <option value="pizza">Pepperoni</option>
+                                <option value="pizza">Super Meaty</option>
+                                <option value="pizza">Veggi Overload</option>
+                            </select>
+                        </div>
+
+                        <div class="order_items_child">
+                            <label for="snacks">Snacks:</label>
+                            <select name="snacks" id="snacks">
+                                <option value="snacks"></option>
+                                <option value="snacks">BBQ Chicken Pocket</option>
+                                <option value="snacks">Beef Suya Pocket</option>
+                                <option value="snacks">Mushroom Pocket</option>
+                                <option value="snacks">Beef Suya Dodster</option>
+                                <option value="snacks">Classic Dodster</option>
+                                <option value="snacks">Chicken BBQ Dodster</option>
+                                <option value="snacks">Shawarma Dodster</option>
+                                <option value="snacks">Beef Suya Pasta</option>
+                                <option value="snacks">Sausage Pasta</option>
+                                <option value="snacks">Bolognese Pasta</option>
+                                <option value="snacks">Chicken Mushroom Pasta</option>
+                                <option value="snacks">Buffalo Chicken Wings</option>
+                                <option value="snacks">BBQ Chicken Wings</option>
+                                <option value="snacks">Chicken Strips</option>
+                                <option value="snacks">Chicken Suya Strips</option>
+                                <option value="snacks">Cheese Rolls</option>
+                                <option value="snacks">Sausage Rolls</option>
+                                <option value="snacks">Potato Wedges</option>
+                                <option value="snacks">Plantain Cubes</option>
+                                <option value="snacks">Pizzetta Cheezetta</option>
+                                <option value="snacks">Pizzetta Chili</option>
+                                <option value="snacks">Pizzetta Shawarma</option>
+                            </select>
+                        </div> 
+
+                        <div class="order_items_child">
+                            <label for="coffee">Coffee:</label>
+                            <select name="coffee" id="coffee">
+                                <option value="coffee"></option>
+                                <option value="coffee">Americano</option>
+                                <option value="coffee">Cafe Latte</option>
+                                <option value="coffee">Cappuccino</option>
+                            </select>
+                        </div>
+
+                        <div class="order_items_child">
+                            <label for="drinks">Drinks:</label>
+                            <select name="drinks" id="drinks">
+                                <option value="drinks"></option>
+                                <option value="drinks">Eva still water</option>
+                                <option value="drinks">Sprite</option>
+                                <option value="drinks">Coca-Cola</option>
+                                <option value="drinks">Fanta</option>
+                                <option value="drinks">Juice 5 Alive Orange</option>
+                                <option value="drinks">Beer Heineken</option>
+                                <option value="drinks">Schweppes Chapman</option>
+                                <option value="drinks">Schweppes Pineapple</option>
+                                <option value="drinks">Schweppes Virigin Mojito</option>
+                            </select>
+                        </div>                        
+
+                        <div class="order_items_child">
+                            <label for="dessert">Dessert:</label>
+                            <select name="dessert" id="dessert">
+                                <option value="dessert"></option>
+                                <option value="dessert">Ice cream Chocolate</option>
+                                <option value="dessert">Ice cream Coconut</option>
+                                <option value="dessert">Ice Cream Stracciatella</option>
+                                <option value="dessert">Ice cream Strawberry</option>
+                                <option value="dessert">Ice cream Vanilla</option>
+                            </select>
+                        </div>
+
+                        <h3 style="margin: 0; padding: 0;"> <span style="font-weight: 300;">Total:</span> ₦20,000</h3>
+
+                    </div>
+
+                    <div class="order_item_container">
+
+                        <div class="order_items_child">
+                            <label for="pizza">Pizza:</label>
+                            <select name="pizza" id="pizza">
+                                <option value="pizza"></option>
+                                <option value="pizza">Beef Suya</option>
+                                <option value="pizza">Cheeseburger</option>
+                                <option value="pizza">Cheesy Chicken</option>
+                                <option value="pizza">Chicken BBQ</option>
+                                <option value="pizza">Dodo BBQ</option>
+                                <option value="pizza">Dodo Supreme</option>
+                                <option value="pizza">Hawaiian</option>
+                                <option value="pizza">Margherita</option>
+                                <option value="pizza">Meaty BBQ</option>
+                                <option value="pizza">Meaty Overload</option>
+                                <option value="pizza">Mexican Beef</option>
+                                <option value="pizza">Naija Beef</option>
+                                <option value="pizza">Naija Chicken</option>
+                                <option value="pizza">Pepperoni</option>
+                                <option value="pizza">Super Meaty</option>
+                                <option value="pizza">Veggi Overload</option>
+                            </select>
+                        </div>
+
+                        <div class="order_items_child">
+                            <label for="snacks">Snacks:</label>
+                            <select name="snacks" id="snacks">
+                                <option value="snacks"></option>
+                                <option value="snacks">BBQ Chicken Pocket</option>
+                                <option value="snacks">Beef Suya Pocket</option>
+                                <option value="snacks">Mushroom Pocket</option>
+                                <option value="snacks">Beef Suya Dodster</option>
+                                <option value="snacks">Classic Dodster</option>
+                                <option value="snacks">Chicken BBQ Dodster</option>
+                                <option value="snacks">Shawarma Dodster</option>
+                                <option value="snacks">Beef Suya Pasta</option>
+                                <option value="snacks">Sausage Pasta</option>
+                                <option value="snacks">Bolognese Pasta</option>
+                                <option value="snacks">Chicken Mushroom Pasta</option>
+                                <option value="snacks">Buffalo Chicken Wings</option>
+                                <option value="snacks">BBQ Chicken Wings</option>
+                                <option value="snacks">Chicken Strips</option>
+                                <option value="snacks">Chicken Suya Strips</option>
+                                <option value="snacks">Cheese Rolls</option>
+                                <option value="snacks">Sausage Rolls</option>
+                                <option value="snacks">Potato Wedges</option>
+                                <option value="snacks">Plantain Cubes</option>
+                                <option value="snacks">Pizzetta Cheezetta</option>
+                                <option value="snacks">Pizzetta Chili</option>
+                                <option value="snacks">Pizzetta Shawarma</option>
+                            </select>
+                        </div> 
+
+                        <div class="order_items_child">
+                            <label for="coffee">Coffee:</label>
+                            <select name="coffee" id="coffee">
+                                <option value="coffee"></option>
+                                <option value="coffee">Americano</option>
+                                <option value="coffee">Cafe Latte</option>
+                                <option value="coffee">Cappuccino</option>
+                            </select>
+                        </div>
+
+                        <div class="order_items_child">
+                            <label for="drinks">Drinks:</label>
+                            <select name="drinks" id="drinks">
+                                <option value="drinks"></option>
+                                <option value="drinks">Eva still water</option>
+                                <option value="drinks">Sprite</option>
+                                <option value="drinks">Coca-Cola</option>
+                                <option value="drinks">Fanta</option>
+                                <option value="drinks">Juice 5 Alive Orange</option>
+                                <option value="drinks">Beer Heineken</option>
+                                <option value="drinks">Schweppes Chapman</option>
+                                <option value="drinks">Schweppes Pineapple</option>
+                                <option value="drinks">Schweppes Virigin Mojito</option>
+                            </select>
+                        </div>                        
+
+                        <div class="order_items_child">
+                            <label for="dessert">Dessert:</label>
+                            <select name="dessert" id="dessert">
+                                <option value="dessert"></option>
+                                <option value="dessert">Ice cream Chocolate</option>
+                                <option value="dessert">Ice cream Coconut</option>
+                                <option value="dessert">Ice Cream Stracciatella</option>
+                                <option value="dessert">Ice cream Strawberry</option>
+                                <option value="dessert">Ice cream Vanilla</option>
+                            </select>
+                        </div>
+
+                        <h3 style="margin: 0; padding: 0;"> <span style="font-weight: 300;">Total:</span> ₦20,000</h3>
+
+                    </div>
+
+                    <div class="button_container">
+                        <button class="button">
+                            <span style="fill: gainsboro;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
+                            </span>
+                        </button>
+
+                        <a href="/payment3.html">
+                            <button class="button">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                                </span>
+                            </button>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+                <form action="/notification.html" class="payment-form">
+
+                    <h3>Billing Details</h3>
+
+                    <span class="payment-form-span">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </span>
+
+                    <span class="payment-form-span">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </span>
+
+                    <span class="payment-form-span">
+                        <label for="address">Delivery Address</label>
+                        <input type="text" id="address" name="address" required>
+                    </span>
+
+                    <h3>Payment Method</h3>
+
+                    <div class="payment-options">
+                        <label>
+                            <input type="radio" name="payment" required>
+                            Credit Card
+                        </label>
+
+                        <label>
+                            <input type="radio" name="payment" required>
+                            Bank Transfer
+                        </label>
+
+                        <label>
+                            <input type="radio" name="payment" required>
+                            Cash on Delivery
+                        </label>
+                    </div>
+
+                    <button type="submit" class="button2">Confirm Payment</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

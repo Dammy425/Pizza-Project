@@ -1,0 +1,28 @@
+.top-notification{
+    background-color: rgba(12, 196, 12, 0.644);
+    position: fixed;
+    z-index: 20;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    left: 40vw;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    justify-content: center;
+}
+
+.top-notification p{
+    margin: 0;
+}
+
+.top-notification span{
+    color: black;
+    font-size: 21px;
+}
+
+.top-notification a{
+    text-decoration: none;
+    color: black;
+}
